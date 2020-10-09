@@ -37,6 +37,7 @@ public class Car
 	
 	//Main Method
 	public static void main(String[] args) {
+		//Car object is created
 		Car obj = new Car();
 		Car obj1 = new Car("Black", 54);
 		obj.display(45);
