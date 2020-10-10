@@ -1,19 +1,19 @@
-
-public class BMW implements ParentCar{	
+package javapractice;
+public class Audi implements ParentCar{
 	int speed = 10;
 	int gear = 0;
 	
 	public void changeGear(int value) {
-		gear = value+1;
+		gear = value;
 		
 	}
 	
 	public void speedUp(int increment) {
-		speed=(speed*2)+increment;
+		speed=speed+increment;
 	}
 	
 	public void applyBrakes(int decrement) {
-		speed=(speed*4)-decrement;
+		speed=speed-decrement;
 	}
 	
 	public void printStates() {
@@ -21,15 +21,11 @@ public class BMW implements ParentCar{
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		BMW B = new BMW();
-		B.changeGear(3);
-		B.printStates();
-		B.speedUp(20);
-		B.printStates();
-		B.applyBrakes(30);
-		B.printStates();
+		Audi A6 = new Audi();
+		A6.speedUp(50);
+		A6.printStates();
+		A6.changeGear(4);
+		A6.printStates();
 	}
-
-	
 
 }

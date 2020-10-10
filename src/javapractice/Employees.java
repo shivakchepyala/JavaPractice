@@ -1,3 +1,5 @@
+package javapractice;
+
 //Demo for encapsulation concept
 public class Employees {
 	

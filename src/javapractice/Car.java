@@ -1,4 +1,4 @@
-
+package javapractice;
 public class Car 
 {
 	//Instance Variable
